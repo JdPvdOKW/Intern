@@ -1,0 +1,156 @@
+\documentclass[10pt,twoside,dutch,english]{report}
+
+    \usepackage[helvetica]{quotchap}   % fancy chapter beginning, times is other option
+    \usepackage{fancyhdr}
+	\usepackage[justification=raggedright, font=small, labelfont=bf,singlelinecheck=false]{caption}     %better control over captions (sideways, font, ...)  
+    \usepackage{subfigure}  % with scriptsize or so, one can adapt the size
+
+
+    \usepackage{enumerate}  % to make it possible to define the numbers (A,a, ...)
+   % \usepackage{psfrag}
+    \usepackage{graphicx}
+    \usepackage{float} %fix floats on place you want (H)
+    \usepackage{subfigure}
+    %tables
+    \usepackage{tabu} %table package. Veel mogelijkheden, bomen en bos
+    \usepackage{longtable} % voor tables die langer zijn dan 1 pae
+    \usepackage{mbenotes}
+    \usepackage{tabularx}
+
+ \usepackage{gensymb} %bijvoorbeeld graden symbool
+ 
+    \usepackage{threeparttable} %tables with notes
+       \usepackage[referable]{threeparttablex}
+    %\usepackage[table]{xcolor}
+  
+	 \usepackage{booktabs}
+   \usepackage{array}
+  
+
+    
+    
+    \usepackage{csvsimple} % csv inladen. Werkt nog niet
+    %\usepackage{datatool}
+    \usepackage{hyperref}
+    \hypersetup{
+    	colorlinks,
+    	citecolor=dimgray,
+    	filecolor=black,
+    	linkcolor=black,
+    	urlcolor=black
+    }
+    \definecolor{dimgray}{rgb}{0.41, 0.41, 0.41}
+    
+    \usepackage[toc,page]{appendix}
+    
+   % \usepackage{chappg}     % page numbering (chapno-pageno), for ToC
+    \usepackage{url}        % for better url typesetting
+    \usepackage{hhline}     % generates nicer table lines (without missing pixels) + more flexible
+    \usepackage{afterpage}  % adds \afterpage command, which makes it possible to issue \afterpage{\clearpage} which flushes all floats after this page
+    
+    \usepackage[version = 3]{mhchem}     % use \ce {}  for chemical forumals
+    \usepackage[a4paper]{geometry}
+    \usepackage{fullpage}
+   %\usepackage{cmbright}
+
+    % \usepackage{microtype} %geeft nog een error
+\usepackage[scaled]{helvet}
+\renewcommand\familydefault{\sfdefault} %nodig voor helvetica
+\usepackage[T1]{fontenc} %afbreken woorden enzo
+\renewcommand{\baselinestretch}{1.3} %lijn afstand instellen
+   \usepackage[round]{natbib}
+
+\author{Job de Pater}
+\title{Nitrogen mineralization for grassland soils } % was eerst anders.
+
+\begin{document}
+
+
+
+\setcounter{tocdepth}{1}
+
+\tableofcontents
+
+\pagenumbering{arabic}
+
+\section{Matter of fact}
+% . Matter-of-fact: How is the institute where you did your internship organised?
+% •	What is the internal organisation, in particular of the department where you worked?
+% •	Where does the institute get its money/orders from, in particular the department where you worked?
+% •	Who are the most important partners of cooperation and who are the most important external competitors, in particular of the department where you worked?
+% •	What did you find the most remarkable/noteworthy (both positive and negative) of the institute?
+NMI stands for 'Nutrient Management Institute'. NMI is a research institute with main focus on applied minded research, education and consultancy for soil and environmental issues. NMI has unique expertise to answer questions in the field of soil processes in the agricultural field. NMI looks for sustainable solutions for land use systems in the whole rural area. 
+On their web site, NMI present themselves as follows: "\textit{Our passion for the soil and our respect for nature and the environment provides
+us with a sound basis for the application of our knowledge and expertise. Our customers can count on our objectivity, commitment, integrity and creativity.}"
+\subsection{Organisation}
+NMI is a private company, started in 1934. Over time, NMI was property of several different organizations. Now, it is part of the Dutch Sprouts holding (\href{http://www.dutchsprouts.com/}{ DutchSprouts.com}). The Dutch Sprouts is owner of Soil Cares (research and foundation), The Scoutbox, Clear Detections, Springg and NMI. 
+
+On date, the team of NMI consists of ten people, including eight researchers, one research assistant, one secretary and one team manager. Every team member has its own expertise within the scope of agricultural nutrient management. For example, there are organic matter specialists, nitrogen- and phosphorus experts.
+
+\subsection{Projects}
+Focus of the research depends on the type of projects and financiers. Most projects are from arable farming, livestock farming and nature development. Sometimes the instruction is to found out some knowledge questions. Other times, sophisticated fertilization recommendations are developed based on earlier research and experiments. Another important task is to share the fundamental soil knowledge in the form of presentations to governmental organizations or groups of farmers. 
+
+\subsection{Stakeholders}
+Clients are different boards in the agricultural sector (e.g. Zuivel NL), other companies (feed, fertilizer) or the direct government. Often, NMI collaborates in the projects with other companies, such as BLGG, PPO or Agrifirm.  
+Those companies/cooperations are sometimes also competitors of NMI. The strength of NMI compared with others is that it has fundamental knowledge and expertise in combination with practical knowledge.  
+
+
+\section{Personal}
+% . Personal: What did you learn, i.e. what did the internship mean for you personally in terms of the learning outcomes that you formulated earlier in the contract and learning agreement? Even if the following aspect were not included, please also reflect on:
+
+% •	Cooperation with people at the institute of your internship
+% •	Personal competences you proved to be good at and suited you nicely
+% •	Personal competences which you feel you still have to improve after the internship in view of your future career.
+\subsection{Personal development}
+At the start of my internship I states some learning goals. I will shortly evaluate them.
+
+\subsubsection{Data analysis and interpretation (R, GenStat) }
+My goal was to learn and practice statistics. I first thought GenStat is used most in practice, so it would be better to learn that. But now I am happy that I have learned R, because it really helps me in understanding the underlying statistical math. 
+
+In the very start, it was difficult to overview all possibilities at once. I started learning R and at the same time trying to understand PCA, multiple linear linear models and stepwise regression. It helps that I had a passionated supervisor. Although he was very busy, what made me hesitating to ask questions, especially in the beginning of the internship.
+Finally, now I can apply basic statistics and simple modeling in R, also with the help of the WUR course CSA50306. 
+
+\subsubsection{Literature research}
+I found it difficult to organize thoughts and conclusions of many different papers and than write this on paper. During my internship I used Mendeley as reference manager, which I found was very helpful, since it enables you to sync articles with smart-phone and tablet apps. 
+
+For me, it is still difficult to read fast and at the same time filter the main thoughts of articles. I really need to focus and not been distracted by talks of other people or media alerts or so. This was sometimes a problem at the office of NMI.
+
+\subsubsection{Report writing }
+In the applied research it is really important to have proper writing skills. You have to write research proposals, scientific reports and simple explanations for non academics. In general I have good thoughts, but I found it difficult to demonstrate it on paper. During my internship I got some tips for writing in a correct comprehensive and convincing way.  
+
+My report I have written in \LaTeX  (in the online Overleaf environment), which I really liked, as it is stable and can easy handle figure placements and updates. After a few months, I understood that this was not appreciated by my first supervisor, because she was not able to use the review and comment section as it is in MS Word. From this, I learned the importance to communicate about such things in advance. 
+
+I am not so good in learning other languages; hence I have some troubles in writing in English too. I can see an upgrade in my vocabulary, but not in the speed that I wanted. I planned to participate in an English course of the Wageningen into Languages school, but I was not allowed to follow the lessons, because my level was too low. I hope I can upgrade my level a bit so I can join the lessons in March-June. 
+
+\subsubsection{Experimental set up}
+
+
+\subsubsection{Work in project team}
+
+
+
+
+
+\subsection{Cooperation with people at NMI}
+
+1.)	Learn to be more result-orientated: Try to keep track on my goals and not to lose myself too often in irrelevant articles or pursuits.
+
+The plan is to reflect each day on my progression and see whether I lost track of my aim(s) for that day. By doing this each day I expect better work performances and it will be easier to accomplish tasks within time. By also doing this during the day at regular times I expect it will be easier to make it myself into a habit, ending up in staying focussed automatically without thinking about it.
+
+2.)	Learn to plan my work and communicate about my progression
+To reflect on my progression each day, it is necessary to have an aim. Although the project is clear, it is not yet clear what my precise tasks will be during the first weeks. During the first weeks it is therefore important to define my tasks well and communicate my planning and pursuits to my supervisors. I will be the driving factor myself rather than my supervisor for defining my tasks, and I will discuss my planning regularly.
+
+3.)	Learn about the organisational structure and how they cooperate/communicate with other parties.
+Especially the way they cooperate with other parties seems interesting to me as it is a small business with several cooperating projects.
+
+4.)	Learn about soil parameters affecting soil life and plant growth
+During my study I focussed on soil biology. Although I learned about nutrient cycles as well, there are many more parameters affecting soil life and plant growth. Since I did not take courses in soil chemistry I’d like to learn about those things during my internship. That’s because I think it is important to understand the importance of abiotic factors on (soil)life.
+
+5.)	Develop my critical thinking skills
+During my internship I will discuss and decide what parameters will be measured in the field. It is therefore an opportunity for me to develop my critical thinking skills further. Besides it will stimulate me in taking initiatives and propose ideas. My goal is to propose at least one new idea. 
+
+6.)	If during my internship I find out I’d like to learn something more, I will formulate another learning goal which will be included in my final reflection paper. 
+
+\subsection{Goals for further development}
+
+\end{document}
